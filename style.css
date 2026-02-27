@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Smooth transition for buttons and inputs */
+input, button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Output animation */
+#output {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}

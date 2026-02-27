@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flight Route Optimizer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/flowbite"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+  <header class="bg-white shadow-md py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold text-blue-700">Flight Route Optimizer</h1>
+      <p class="text-gray-600 mt-2">Find the most cost-efficient flight path between cities</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-8">
+    <div class="bg-white p-6 rounded-xl shadow-lg">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="block mb-2 text-gray-700 font-medium" for="source">From:</label>
+          <input type="text" id="source" placeholder="e.g., New York" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none" />
+        </div>
+        <div>
+          <label class="block mb-2 text-gray-700 font-medium" for="destination">To:</label>
+          <input type="text" id="destination" placeholder="e.g., Paris" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none" />
+        </div>
+      </div>
+      <div class="mt-6 text-center">
+        <button id="findRouteBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg transition-colors">Find Route</button>
+      </div>
+    </div>
+
+    <div id="output" class="mt-10 space-y-6"></div>
+  </main>
+
+  <footer class="bg-white mt-16 py-4 text-center text-sm text-gray-500 border-t">
+    © 2025 Flight Route Optimizer. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
