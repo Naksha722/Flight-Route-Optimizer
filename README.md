@@ -29,30 +29,36 @@ This application focuses on simplicity, performance, and clarity, making it suit
 
 
 flight-booking-optimizer/
+
 ├── index.html # Application entry point
+
 ├── style.css # Custom styling
+
 ├── script.js # UI interaction and control logic
+
 ├── graph.js # Graph representation and optimization logic
+
 ├── README.md # Project documentation
-└── .vscode/ # Development environment configuration
+
+  └── .vscode/ # Development environment configuration
 
 
 ---
 
 ## Installation and Setup
 
-1. Clone the repository:
+- Clone the repository:
    ```bash
    git clone https://github.com/your-username/flight-booking-optimizer.git
 
-Navigate to the project directory:
+- Navigate to the project directory:
 
 cd flight-booking-optimizer
 
-Open index.html in a web browser
+- Open index.html in a web browser
 (Using VS Code Live Server is recommended for development.)
 
-Usage Instructions
+- Usage Instructions
 
 Enter the source city in the input field
 
@@ -62,30 +68,29 @@ Click Find Route
 
 The optimized flight path and cost will be displayed on the screen
 
-Design Considerations
+**Design Considerations**
 
-Emphasis on usability and clarity
+- Emphasis on usability and clarity
 
-Separation of concerns between UI and logic
+- Separation of concerns between UI and logic
 
-Extensible architecture for future upgrades
+- Extensible architecture for future upgrades
 
-Future Enhancements
+**Future Enhancements**
 
-Integration with real-time flight pricing APIs
+- Integration with real-time flight pricing APIs
 
-Multi-route comparison and visualization
+- Multi-route comparison and visualization
 
-Backend support for scalability
+- Backend support for scalability
 
-Machine learning-based price prediction
+- Machine learning-based price prediction
 
 
-Acknowledgements
+**Acknowledgements**
 
-Tailwind CSS for modern UI styling
+- Tailwind CSS for modern UI styling
 
-Graph theory concepts for route optimization
-Tailwind CSS for modern UI styling
+- Graph theory concepts for route optimization
 
 Graph theory concepts for route optimization
