@@ -58,17 +58,21 @@ cd flight-booking-optimizer
 - Open index.html in a web browser
 (Using VS Code Live Server is recommended for development.)
 
-- Usage Instructions
+---
 
-Enter the source city in the input field
+## Usage Instructions
 
-Enter the destination city
+- Enter the source city in the input field
 
-Click Find Route
+- Enter the destination city
 
-The optimized flight path and cost will be displayed on the screen
+- Click Find Route
 
-**Design Considerations**
+- The optimized flight path and cost will be displayed on the screen
+
+---
+
+## Design Considerations
 
 - Emphasis on usability and clarity
 
@@ -76,7 +80,9 @@ The optimized flight path and cost will be displayed on the screen
 
 - Extensible architecture for future upgrades
 
-**Future Enhancements**
+---
+
+## Future Enhancements
 
 - Integration with real-time flight pricing APIs
 
@@ -86,11 +92,14 @@ The optimized flight path and cost will be displayed on the screen
 
 - Machine learning-based price prediction
 
+---
 
-**Acknowledgements**
+## Acknowledgements
 
 - Tailwind CSS for modern UI styling
 
 - Graph theory concepts for route optimization
 
-Graph theory concepts for route optimization
+
+
+
